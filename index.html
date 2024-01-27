@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ElementsStyle/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login page</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <h2 style="margin-bottom: 0.1em;">Login</h2>
+            <article class="tambien">
+                <p>Tambien puedes hacerlo con:</p>
+                <div class="icons">
+                    <button><i class="fa-brands fa-github"></i></button>
+                    <button><i class="fa-brands fa-google"></i></button>
+                    <button><i class="fa-brands fa-linkedin"></i></button>
+                </div>
+            </article>
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
+            <a href="#" id="forget">¿Olvidaste tu contraseña?</a>
+            <button class="go">Go</button>
+            <p>¿No tienes una cuenta? <button id="signup-btn">Signup</button></p>
+        </section>
+        <section id="signup">
+            <h2 style="margin-bottom: 0.1em;">Sign up</h2>
+            <article class="tambien">
+                <p>Tambien puedes hacerlo con:</p>
+                <div class="icons">
+                    <button><i class="fa-brands fa-github"></i></button>
+                    <button><i class="fa-brands fa-google"></i></button>
+                    <button><i class="fa-brands fa-linkedin"></i></button>
+                </div>
+            </article>
+            <input type="email" placeholder="email">
+            <input type="text" placeholder="name">
+            <input type="password" placeholder="password">
+            <input type="password" placeholder="confirm your password">
+            <p>¿Ya tienes una cuenta? <button id="login-btn">Login</button></p>
+            <button class="go">Go</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
