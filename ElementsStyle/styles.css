@@ -82,7 +82,7 @@ input + input { /* Se utiliza solo cuando estan juntos para no crear espacios in
         cursor: pointer;
     }
 }
-.tambien {
+.tambien { /* Estilos del article con clase 'tambien' */
     color: rgb(31, 30, 30);
 }
 .fa-brands { /* Estilando los Iconos */
